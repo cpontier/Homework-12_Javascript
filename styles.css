@@ -1,0 +1,41 @@
+.form-control {
+  display: inline-block;
+  width: 250px;
+  margin-top: 50px;
+}
+
+.header-fixed {
+  width: 100% 
+}
+
+.header-fixed > thead,
+.header-fixed > tbody,
+.header-fixed > thead > tr,
+.header-fixed > tbody > tr,
+.header-fixed > thead > tr > th,
+.header-fixed > tbody > tr > td {
+  display: block;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.header-fixed > tbody {
+  overflow-y: auto;
+  height: 1000px;
+}
+
+.header-fixed > tbody > tr > td,
+.header-fixed > thead > tr > th {
+  width: 14%;
+  float: left;
+}
+
+th,td{
+  padding: 3px;
+}
